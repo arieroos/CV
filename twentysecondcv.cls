@@ -1,3 +1,6 @@
+% Downloaded from https://www.latextemplates.com/template/twenty-seconds-resumecv
+% Created By Carmine Spagnuolo and Vel
+
 \ProvidesClass{twentysecondcv}[2017/01/08 CV class]
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
