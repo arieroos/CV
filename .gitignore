@@ -1,3 +1,6 @@
 *.out
 *.log
 *.aux
+CV.fls
+CV.fdb_latexmk
+CV.synctex.gz
