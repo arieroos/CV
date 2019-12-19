@@ -162,10 +162,10 @@
 
 		\profilesection{Skills}
 
+		\scriptsize
+		A half full bar indicates professional competence. A full bar indicates "no room for improvement".\\
 		\skills
 		\skillstext
-		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 			
 		%------------------------------------------------
 			
