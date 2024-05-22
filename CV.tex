@@ -30,13 +30,13 @@
 \profilepic{arie.jpeg} % Profile picture
 
 \cvname{Arie Roos} % Your name
-\cvjobtitle{Developer} % Job title/career
+\cvjobtitle{Software Developer} % Job title/career
 
 \cvdate{16 September 1989} % Date of birth
-\cvaddress{Gezina, Pretoria, South Africa} % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{+27 12 345 6789} % Phone number
+\cvaddress{Pretoria, South Africa} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+27 78 423 7325} % Phone number
 \cvsite{github.com/arieroos} % Personal website
-\cvmail{ariechildofgod@gmail.com} % Email address
+\cvmail{arie@127development.com} % Email address
 
 %----------------------------------------------------------------------------------------
 
@@ -46,16 +46,18 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{I am an eneregetic, curious and creative developer. My love for code is driven by my love for math, algorithms and logical puzzles. I love exploring new ideas, and am always willing to learn.
-I like people about as much as I like logic, and therefore I work best in a small team. It is easy for me to be self-motivated when I am surrounded by peers, but I tend toget distracted when I am alone.
-I flourish in work environments where I can be creative and innovative. I prefer to work in an unstrucutred environment, because it is better suited to innovation.} % To have no About Me section, just remove all the text and leave \aboutme{}
+\aboutme{I am driven by finding simple and well-crafted solutions for complex problems.
+My love for code is also driven by my love for math, algorithms, and logical puzzles.
+I love exploring new ideas, and am always willing to learn.
+I work well in small teams where open communication is highly valued.
+} % To have no About Me section, just remove all the text and leave \aboutme{}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
 %----------------------------------------------------------------------------------------
 
 % Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{Rust/2.5},{Using Unix CLI/3.7},{Javascript/4.6},{SQL/5},{C\#/5.7},{People Skills/5.1},{Problem Solving/5.7},{Innovation/5.9}}
+\skills{{Rust/2.5},{Linux Server Admin/3.7},{People Skills/4.9},{Problem Solving/5.4},{Javascript/5.5},{Software Engineering/5.6},{C\#/5.7},{Golang/5.9},{SQL/5.9}}
 
 \makeprofile % Print the sidebar
 
@@ -65,21 +67,9 @@ I flourish in work environments where I can be creative and innovative. I prefer
 
 \section{Interests}
 
-I am a thinker, I love Math, Puzzles, Theology and Philosophy. I am also curious, and always appreciate new knowledge. I like to keep active and spend time in nature.
-
-%----------------------------------------------------------------------------------------
-%	 EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section{Education}
-
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2009-2012}{B.Sc. Mathematical Sciences}{Stellenbosch University}{Majoring in Computer Science}
-    \twentyitem{2003-2007}{High school}{Brackenfell High School}{Computer Studies, Math, Science, Biology, English, Afrikaans}
-    
-	\twentyitem{2017}{Life Coaching Certificate}{New Insights (Distance Learning)}{A two-year course in Life Coaching including 50 hours of practical work.}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
+I am a thinker, I love Math, Puzzles, Theology, and Philosophy. I am also curious, and always appreciate new knowledge.
+I like to keep active with mountain biking and wall climbing if I get a chance.
+I spend most of my free time working in my garden or being an involved father.
 
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
@@ -88,8 +78,26 @@ I am a thinker, I love Math, Puzzles, Theology and Philosophy. I am also curious
 \section{Experience}
 
 \begin{twenty} % Environment for a list with descriptions
-    \twentyitem{2018-Now}{Software Developer}{Itecho}
-    {We developed a product, called Aircost, for automating the business and engineering processes of a ducting factory.
+    \twentyitem{2024-Now}{Freelance Software Developer}{127development.com}
+    {I work on a variety of projects, from large web applications to simple script automations, and I am always looking for new challenges. Some highlights include:
+    \begin{itemize}
+        \item Developing a full file syncing application for Windows Desktop to make it easier for civil engineers to keep their files in sync in a way that integrates well with their custom processes and systems.
+        \item Improving performance, security, and maintainability for the server of a complex web application.
+        \item Improving the performance of a complex harvest forecasting model by 99\%, by improving the model's usage of the numpy library.
+    \end{itemize}
+    I gained experience in client relations, C\#, Java, Kotlin, Python, Javascript, MySQL, SQLite, and Linux Server Admin.}
+    \twentyitem{2020-2024}{Senior Software Developer}{Direct Debit}
+        {I worked as lead developer on Direct Debit, a debit order system, and a solutions architect for PCI Vault, a PCI compliant credit card storage system.
+        Some accomplishments include:
+        \begin{itemize}
+            \item Improving the usability and speed of the system by rewriting some SQL queries to massively improve performance.
+            \item Reducing operating costs by quite a big margin. I did this by implementing a new payment processing back-end, which allowed for cheaper transaction processing.
+            \item Scaling PCIVault to handle thousands transaction per second by rewriting the system to use a distributed database and serverless architecture. This also reduced operating costs to only a few dollars per month.
+            \item Improving the usability and client retention of the PCIVault by implementing a custom documentation system, which allowed clients to use, test, and understand the APIs directly from their browser.
+        \end{itemize}
+        I gained experience in Golang, Python, Javascript, Svelte, PostgreSQL, Linux Server Admin, and AWS (Lambda and DynamoDB).}
+    \twentyitem{2018-2020}{Software Developer}{Itecho}
+    {We developed a product for automating the business and engineering processes of a ducting factory.
     \begin{itemize}
         \item I developed the parameterised models on the project, which included a lot of Mathematics and consulting with the client's mechanical engineers.
         \item I built a very nice library for computational geometry.
@@ -98,6 +106,13 @@ I am a thinker, I love Math, Puzzles, Theology and Philosophy. I am also curious
         \item I helped to develop the MVC flow for the model parameters.
     \end{itemize}
     I gained experience in client relations, C\#, .NET Core, EF Core, Javascript, vue.js, and PostgreSQL.}
+\end{twenty}
+
+\newpage % Start a new page
+
+\makeprofile % Print the sidebar
+
+\begin{twenty}
     \twentyitem{2017-2018}{Life Coach}{Self Employed}
     {I had my own life coaching practice. I worked with clients on a one to one basis to help improve their lives, and I also presented a few self-improvement workshops. I helped people to quit smoking, get their lives back on track after traumatising events, improve their social lives, etc. My work was non-technical, but I did learn a lot about people, leadership, motivation and public speaking.}
     \twentyitem{2016-2017}{DevOps Engineer}{Airvantage}
@@ -115,13 +130,7 @@ I am a thinker, I love Math, Puzzles, Theology and Philosophy. I am also curious
     \twentyitem{2014-2016}{Support Engineer}{VAS-X}
     {I was part of the team running an Airtime Advance System at multiple telecom companies. My duties included mostly operational work, 2nd-line support tickets, generating reports from SQL, and regular interaction with corporate clients. I picked up a lof of SQL (in Oracle) and experience and wrote some awesome SQL queries.}
     %\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
 
-\newpage % Start a new page
-
-\makeprofile % Print the sidebar
-
-\begin{twenty}
     \twentyitem{2014}{Software Developer}{iPLan Industrial Engineers}
     {At iPlan I wrote extensions and interactions for Syspro(an ERP System) using C\#.NET. I also integrated a few Excel sheets with Syspro, using VBA.NET. I also gained experienced with MS SQL}
     \twentyitem{2012-2013}{Software Engineer}{Libralex}
@@ -133,10 +142,28 @@ I am a thinker, I love Math, Puzzles, Theology and Philosophy. I am also curious
     {Between school and university, I spent a year working as a camp facilitator. I worked a lot with children and teenagers, teaching various soft skills through camp activities. During downtimes I helped with camp maintenance.}
 \end{twenty}
 
+\newpage % Start a new page
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2009-2012}{B.Sc. Mathematical Sciences}{Stellenbosch University}{Majoring in Computer Science}
+    \twentyitem{2003-2007}{High school}{Brackenfell High School}{Computer Studies, Math, Science, Biology, English, Afrikaans}
+
+	\twentyitem{2017}{Life Coaching Certificate}{New Insights (Distance Learning)}{A two-year course in Life Coaching including 50 hours of practical work.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
 \section{Personal Info}
 
 I am first and foremost a Christian. I take a heavy interest in theology, and in what it means to be a Christian.
-My family is also very important to me, and I will go to great lengths to ensure that I spend enough time with my wife and my son.
-I like the outdoors, so I often spend time walking my dog, mountain biking, or just enjoying nature with my family.
+My family is also very important to me.
+I like the outdoors, so I often spend time working in my garden, mountain biking, or just enjoying nature with my family.
 
 \end{document} 
